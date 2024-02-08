@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+        <meta charset="utf-8" />
+    </head>
+    <script src="/scripts/building.js"></script>
+    <script src="/scripts/script.js" defer></script>
+    <body>
+        <main>
+            <h1>Danny Dollars:</h1>
+            <h2 id="score">0</h2>
+            <h3>CPS:</h3>
+            <h3 id="overallCPS">0</h3>
+            <img
+                id="dannyImage"
+                src="styles/images/danny.webp"
+                type="button"
+                onclick="scorePlusPlus()"
+                class="dannyDevito"
+            />
+            <br />
+            <button
+                type="button"
+                id="shrineButton"
+                onclick="shrine.purchase()"
+            ></button>
+            <button
+                type="button"
+                id="dannyDoritoButton"
+                onclick="dannyDorito.purchase()"
+            ></button>
+            <button
+                type="button"
+                id="trashManButton"
+                onclick="trashMan.purchase()"
+            ></button>
+            <button
+                type="button"
+                id="dannyBurritoButton"
+                onclick="dannyBurrito.purchase()"
+            ></button>
+        </main>
+    </body>
+</html>

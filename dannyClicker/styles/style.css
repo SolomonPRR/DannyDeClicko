@@ -1,0 +1,23 @@
+html,
+main {
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+}
+.dannyDevito {
+    width: 150px;
+}
+.dannyDevito:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+.dannyDevito:active {
+    transform: scale(0.95);
+}
+button {
+    background-color: rgba(0, 100, 255, 80);
+    color: rgba(255, 255, 255, 100);
+}
+:disabled {
+    opacity: 0.7;
+}
